@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55352c8f-c81b-437c-8ec9-f050c339c622">
+  <producedTypes>
+    <objectType typeId="6f34df2c-1bd7-4f0c-96bc-ee5045bfda56" valueTypeId="0747238a-f2ef-4281-9de9-ab05db483d29"/>
+    <refType typeId="47dccfce-70e4-4f50-b60d-fb88a14393ef" valueTypeId="8371922c-b022-4552-bff4-d1924da33b63"/>
+    <selectionType typeId="ef1177de-6ae3-4283-a422-6f2feb63880c" valueTypeId="83848123-0510-4d19-b451-fb0f66035b58"/>
+    <listType typeId="05dff09c-30d7-46f7-a5e8-3f4213ceca81" valueTypeId="86729077-d8d2-4af0-a7ec-2028d4749ade"/>
+    <managerType typeId="b4bbf102-6374-4ef3-963c-d00683f8cd21" valueTypeId="07e54212-fcd6-4199-b88a-15536a60134d"/>
+  </producedTypes>
+  <name>Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Должности.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Должности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Должности.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="835e54ea-8eb0-4227-9de0-25a85d9dc799">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
